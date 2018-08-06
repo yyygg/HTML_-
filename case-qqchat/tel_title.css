@@ -1,0 +1,29 @@
+#tel_title{
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+}
+#tel_title_left{
+    width:120px;
+    height:50px;
+    line-height: 50px;
+    font-weight: 800;
+    margin-left:10px;
+    font-size:22px;
+}
+#tel_title_right{
+    height:60px;
+    flex:1;
+    display:flex;
+    flex-flow:row-reverse;
+}
+#tel_title_right1{
+    height:48px;
+    width:48px;
+    background-image:url(../img/添加好友.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+}

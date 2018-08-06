@@ -1,0 +1,158 @@
+#ding_text_select_option{
+    width:100%;
+    flex:1;
+    background-color:gainsboro;
+    flex-flow:column;
+    overflow:scroll;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+#ding_text{
+    width:100%;
+    flex:1;
+    /*display:flex;*/
+    background-color:gainsboro;
+    flex-flow:column;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+
+}
+.ding_text_text_top{
+    width:100%;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    margin-top:18px;
+
+}
+
+.ding_text_text_top_time{
+    height:18px;
+    width:60px;
+
+}
+.time{
+    background-color:silver;
+    color:white;
+    font-size: 12px;
+    text-align:center;
+    border-radius:3px;
+}
+.ding_text_1{
+    display:flex;
+    flex-flow:row-reverse;
+}
+.ding_text_11{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background-color:dodgerblue;
+    text-align:center;
+    line-height: 40px;
+    color:white;
+    font-size: 12px;
+}
+.ding_text_12{
+    height:40px;
+    width:80px;
+    font-size:14px;
+    color:black;
+    background-color: skyblue;
+    text-align:center;
+    line-height: 40px;
+    border-radius:8%;
+    margin-right:6px;
+}
+.read1{
+    height:20px;
+    width:100%;
+    display:flex;
+    flex-flow:row-reverse;
+}
+.read11{
+    height:20px;
+    width:80px;
+    color:gray;
+    font-size:12px;
+}
+#ding_text_12{
+    width:100px;
+}
+#read11{
+    color:dodgerblue;
+}
+#ding_text_1{
+    display:flex;
+    flex-flow: row;
+}
+#ding_text_122{
+    width:280px;
+    border-radius:4%;
+}
+#time2{
+    width:40px;
+    border-radius:3px;
+}
+#ding_text_001{
+    width:100%;
+    height:160px;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center;
+}
+#ding_text_01{
+    width:400px;
+    height:40px;
+    color:black;
+    background-color:white;
+    font-size:14px;
+    text-align:center;
+    line-height:40px;
+}
+#ding_text_02{
+    width:400px;
+    height:40px;
+    background-color:white;
+    color:dodgerblue;
+    text-align:center;
+     line-height:40px;
+}
+#ding_text_03{
+    width:400px;
+    height:40px;
+    color:dodgerblue;
+    background-color:white;
+    text-align:center;
+    line-height:40px;
+}
+#ding_text_04{
+    width:400px;
+    height:40px;
+    color:dodgerblue;
+    background-color:white;
+    text-align:center;
+    line-height:40px;
+}
+#time3{
+    width:110px;
+    border-radius:3px;
+}
+.kong{
+    width:100%;
+    height:12px;
+}
+#time4{
+    width:340px;
+    height:40px;
+    border-radius:3px;
+    position:relative;
+}
+.time4_word{
+    color:dodgerblue;
+    position:absolute;
+    bottom:7px;
+    right:72px;
+}

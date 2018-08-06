@@ -1,0 +1,230 @@
+#tel_color{
+    width:100%;
+
+    background-color:white;
+    display:flex;
+    flex-flow:column;
+    flex:1;
+    overflow:scroll;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+
+#tel_text{
+    width:100%;
+    height:100px;
+    background-color:whitesmoke;
+    display:flex;
+    flex-flow:column;
+    flex:1;
+    margin-left:6px;
+}
+#search{
+    height:30px;
+    width:100%;
+    background-color:gainsboro;
+    display:flex;
+    border-radius:3%;
+}
+#max{
+    height:30px;
+    width:30px;
+    background-image:url(../img/010.svg);
+    background-repeat:no-repeat;
+    background-size:16px;
+    background-position:center;
+
+}
+#search_word{
+    width:40px;
+    height:30px;
+    text-align:center;
+    color:#8a8a8a;
+    line-height:30px;
+    font-size:16px;
+}
+#tel_text1{
+    height:55px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    background-color:white;
+}
+.tel_text11{
+    height:50px;
+    width:60px;
+    display:flex;
+    flex-flow:column;
+    /*justify-content: center;*/
+    align-items:center;
+}
+.tel_text111{
+    height:38px;
+    width:40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.tel_text112{
+    text-align:center;
+    width:60px;
+    height:15px;
+    color:gray;
+    font-size:12px;
+}
+#tel_text1111{
+    height:28px;
+    width:25px;
+    border:2px solid #1296db;
+    margin-top:2px;
+}
+#tel_text11111{
+    height:17px;
+    width:12px;
+    margin-left:5px;
+    margin-top:2px;
+    border:2px solid #1296db;
+}
+#tel_text112{
+    background-image:url(../img/029.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    /*background-size:*/
+}
+#tel_text113{
+    background-image:url(../img/我的好友.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    /*background-size:*/
+}
+#tel_text114{
+    background-image:url(../img/企业广场.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    /*background-size:*/
+}
+#tel_text2{
+    height:50px;
+    width:100%;
+    margin-top:8px;
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+}
+#tel_text21{
+    width:48px;
+    height:48px;
+    margin-left:6px;
+    background-image:url(../img/111.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:42px;
+}
+#tel_text22{
+    flex:1;
+    height:48px;
+     color:black;
+    line-height:48px;
+}
+#tel_text23{
+    width:30px;
+    height:48px;
+    margin-right:10px;
+    color: gray;
+    text-align:center;
+    line-height:48px;
+}
+#tel_text3{
+    margin-top:8px;
+    height:180px;
+    width:100%;
+    background-color:white;
+
+}
+#tel_text31{
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tel_text311{
+    height:40px;
+    width:160px;
+    background-color:#3495fc;
+    color:white;
+    border-radius:2px;
+    text-align:center;
+    line-height:40px;
+    font-weight:500;
+    font-size:18px;
+}
+#tel_text32{
+    width:100%;
+    height:60px;
+    background-image:url(../img/112.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:156px;
+}
+#tel_text33{
+    width:100%;
+    height:60px;
+    display:flex;
+}
+#tel_text331{
+    width:150px;
+    height:60px;
+    display:flex;
+    flex-flow:row-reverse;
+}
+#tel_text3311{
+    height:40px;
+    width:40px;
+    background-image:url(../img/0001.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius:50%;
+}
+
+#tel_text332{
+    width:180px;
+    height:60px;
+    line-height:20px;
+    text-align:center;
+    color:gray;
+}
+#tel_text4{
+    width:100%;
+    margin-top:8px;
+    height:80px;
+    background-color:white;
+}
+#tel_text41{
+    width:100%;
+    height:30px;
+    font-weight:600;
+
+}
+#tel_text42{
+    width:100%;
+    height:50px;
+    display:flex;
+
+}
+#tel_text421{
+    width:40px;
+    height:40px;
+    background-color:#3495fc;
+    text-align:center;
+    color:white;
+    border-radius:50%;
+    line-height:40px;
+}
+#tel_text422{
+    flex:1;
+    height:40px;
+    line-height:40px;
+}
+

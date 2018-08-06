@@ -1,0 +1,455 @@
+.work_title{
+    width:100%;
+    flex:1;
+    background-color:white;
+    overflow:scroll;
+
+}
+::-webkit-scrollbar{
+    display:none;
+}
+#work_title{
+    width:100%;
+    flex:1;
+    display:flex;
+    background-color:#efefef;
+    flex-flow:column;
+    margin-left:10px;
+}
+
+#work_title2{
+    width:100%;
+    height:20px;
+    background-color:white;
+    font-size:13px;
+}
+#work_title3{
+    width:100%;
+    height:50px;
+    font-size:26px;
+    background-color:white;
+}
+#work_title4{
+    width:100%;
+    height:20px;
+    font-size:10px;
+    color:gray;
+    background-color:white;
+}
+#work_title5{
+    width:100%;
+    height:50px;
+    background-color:white;
+    display:flex;
+    line-height:60px;
+}
+#work_title6{
+    margin-top:8px;
+    background-color:white;
+    width:100%;
+    height:40px;
+    display:flex;
+    align-items:center;
+}
+#work_title61{
+    margin-top:3px;
+    width:26px;
+    height:26px;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content:center;
+}
+#work_title611{
+    width:9px;
+    height:9px;
+    background-color:#3396fb;
+}
+#work_title612{
+    width:9px;
+    height:9px;
+    background-color:#3396fb;
+    margin-left:2px;
+    transform:rotate(45deg);
+}
+#work_title613{
+    width:9px;
+    height:9px;
+    background-color:#3396fb;
+    margin-top:-2px;
+}
+#work_title614{
+    width:9px;
+    height:9px;
+    background-color:#3396fb;
+    margin-left:2px;
+    margin-top:-2px;
+}
+#work_title62{
+    font-size:22px;
+    line-height:42px;
+    font-weight:400;
+}
+#work_title7{
+    color:gray;
+    font-size:13px;
+    background-color:white;
+    height:30px;
+}
+#work_title8{
+     width:100%;
+     height:60px;
+     background-color:white;
+     display:flex;
+ }
+#work_title81{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title811{
+    width:40px;
+    height:40px;
+    background-image:url(../img/考勤打卡.svg);
+    background-color:#4da9ec;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#work_title812{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title82{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title821{
+    width:40px;
+    height:40px;
+    background-image:url(../img/签到.svg);
+    background-color:#f7b55e;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#work_title822{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title9{
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+
+}
+#work_title91{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title911{
+    width:40px;
+    height:40px;
+    background-image:url(../img/请假.svg);
+    background-color:#3e9dfb;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:28px;
+
+}
+#work_title912{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title92{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title921{
+    width:40px;
+    height:40px;
+    background-image:url(../img/请假.svg);
+    background-color:#3e9dfb;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:28px;
+}
+#work_title922{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title10{
+    color:gray;
+    font-size:13px;
+    background-color:white;
+    height:30px;
+}
+#work_title11{
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+}
+#work_title111{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title1111{
+    width:40px;
+    height:40px;
+    background-color:#3e9dfb;
+    color:white;
+    text-align:center;
+    font-size:24px;
+}
+#work_title1112{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title112{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title1121{
+    width:40px;
+    height:40px;
+    background-color:#2ac79d;
+    color:white;
+    text-align:center;
+    font-size:24px;
+}
+#work_title1122{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title12{
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+}
+#work_title121{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title1211{
+    width:40px;
+    height:40px;
+
+    background-color: #f7b55e;
+    color:white;
+    text-align:center;
+    font-size:24px;
+
+}
+#work_title1212{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title122{
+    height:40px;
+    width:50%;
+    display:flex;
+}
+#work_title1221{
+    width:40px;
+    height:40px;
+    background-color:#3e9dfb;
+    background-image:url(../img/握手.svg);
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:28px;
+}
+#work_title1222{
+    flex:1;
+    height:40px;
+    line-height:30px;
+}
+#work_title13{
+    width:100%;
+    height:240px;
+    display:flex;
+    flex-flow:column;
+}
+#work_title131{
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+    background-color:white;
+}
+#work_title1311{
+    width:50px;
+    height:50px;
+    background-image:url(../img/五角星.svg);
+    background-position:center;
+    background-size:30px;
+    background-repeat:no-repeat;
+}
+#work_title1312{
+    text-align:center;
+    font-size:24px;
+}
+#work_title132{
+    height:160px;
+    flex:1;
+    display:flex;
+    background-color:white;
+    overflow: scroll;
+
+}
+::-webkit-scrollbar{
+    display:none;
+}
+#work_title1321{
+    height:180px;
+    display:flex;
+    flex:1;
+}
+#work_title13211{
+      height:180px;
+      width:350px;
+      background-image:url(../img/211.png);
+      border-radius:3px;
+      background-position:center;
+      background-repeat:no-repeat;
+  }
+#work_title13212{
+    margin-left:16px;
+    height:180px;
+    width:400px;
+    background-image:url(../img/212.png);
+    border-radius:3px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#work_title13213{
+    margin-left:16px;
+    height:180px;
+    width:400px;
+    background-image:url(../img/213.png);
+    border-radius:3px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#work_title13214{
+    margin-left:16px;
+    height:180px;
+    width:400px;
+    background-image:url(../img/214.png);
+    border-radius:3px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#work_title14{
+    margin-top:8px;
+    background-color:white;
+    width:100%;
+    height:150px;
+}
+.work_title14{
+    width:100%;
+    height:50px;
+    color:dimgray;
+    display:flex;
+}
+#work_title141{
+    width:50px;
+    height:50px;
+    background-image:url(../img/216.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:24px;
+}
+#work_title142{
+    color:black;
+    font-size:22px;
+    line-height:50px;
+}
+#work_title15{
+    margin-top:8px;
+    background-color:white;
+    width:100%;
+    height:200px;
+}
+#work_title151{
+    width:100%;
+    height:50px;
+    display:flex;
+}
+#work_title1511{
+    width:50px;
+    height:50px;
+    background-image:url(../img/安全.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:24px;
+}
+#work_title1512{
+    color:black;
+    font-size:22px;
+    line-height:50px;
+}
+#work_title152{
+    width:100%;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+}
+#work_title153{
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#work_title1531{
+    width:120px;
+    height:100px;
+    background-image:url(../img/218.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100px;
+}
+#work_title1532{
+    width:118px;
+    height:120px;
+    background-image:url(../img/219.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100px;
+}
+#work_title16{
+    width:100%;
+    height:100px;
+    text-align:center;
+    line-height:60px;
+    font-weight:900;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    font-size:20px;
+}
+#work_title161{
+    position:absolute;
+    width:100%;
+    height:20px;
+    top:26px;
+    color:gray;
+    font-weight:400;
+    font-size:14px;
+    text-align:center;
+}
